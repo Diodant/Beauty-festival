@@ -225,6 +225,7 @@ a:focus {
 .title {
   font-size: 45px;
   text-transform: uppercase;
+  line-height: 1.3;
   font-weight: 700;
   color: #3e3b3f;
   padding-bottom: 30px;
@@ -333,6 +334,128 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* Jury */
+
+
+.jury-content {
+  position: relative;
+  background-image: url('./img/bg-2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 200px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.jury-image {
+  width: 300px;
+  height: 300px;
+  background-image: url('./img/nomination-icon.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.styled-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.styled-list li {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3e3b3f;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+}
+
+.big-number {
+  font-size: 74px;
+  font-weight: bold;
+  background: linear-gradient(to right, #a46497, #2ea2cc); /* Градиентный цвет фона */
+  -webkit-background-clip: text; /* Применяем градиент к тексту */
+  color: transparent; /* Делаем текст прозрачным */
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.jury-buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.jury-buttons button {
+  background-color: #a46497;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.jury-buttons button:hover {
+  background-color: #2ea2cc;
+}
+
+.jury-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jury-item {
+  display: flex;
+  margin-bottom: 100px;
+
+}
+
+.image-container {
+
+  margin-right: 50px;
+}
+
+.jury-title {
+
+  font-weight: 200;
+  font-size: 36px;
+}
+
+.text-container {
+
+}
+
+
+
+.text-container {
+  flex: 1;
+  text-align: left;
+}
+
+.jury-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Применяем скругленные углы */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
+  transition: transform 0.3s ease; /* Добавляем плавный переход */
+}
+
+.jury-card img:hover {
+  transform: scale(1.05); /* Увеличиваем размер при наведении */
+}
+
+
 /* Footer */
 
 .footer {

@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import MainContent from './components/MainContent';
-import Jury from './components/Jury';
+import Jur from './components/Jur';
 import Winners from './components/Winners';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" element={<MainContent />} />
-          <Route path="/jury" element={<Jury />} />
+          <Route path="/jury" element={<Jur />} />
           <Route path="/winners" element={<Winners />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
