@@ -318,6 +318,7 @@ a:focus {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
+  line-height: 1.2;
 }
 
 .awards-cont {
@@ -371,7 +372,7 @@ a:focus {
   font-size: 28px;
   font-weight: 600;
   color: #3e3b3f;
-  line-height: 1.5;
+  line-height: 1.3;
   display: flex;
   align-items: center;
 }
@@ -390,23 +391,26 @@ a:focus {
 .jury-buttons {
   display: flex;
   justify-content: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .jury-buttons button {
-  background-color: #a46497;
+  background-image: linear-gradient(to right, #a46497, #2ea2cc);
   color: #ffffff;
   border: none;
   padding: 10px 20px;
   margin: 0 10px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .jury-buttons button:hover {
-  background-color: #2ea2cc;
+  background-image: linear-gradient(to right, #2ea2cc, #a46497);
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2)
 }
 
 .jury-card {
@@ -415,27 +419,64 @@ a:focus {
   align-items: center;
 }
 
+.year-title {
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 1.3;
+  font-weight: 700;
+  text-align: center;
+  color: #3e3b3f;
+  padding-bottom: 50px;
+}
+
+.jury-details-list {
+  padding-top: 20px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 300;
+  margin-right: 20px;
+}
+
+.jury-details-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+
 .jury-item {
   display: flex;
   margin-bottom: 100px;
-
 }
 
 .image-container {
-
   margin-right: 50px;
 }
 
 .jury-title {
-
   font-weight: 200;
   font-size: 36px;
+  position: relative; /* Позиционируем относительно */
+}
+
+.jury-title::after {
+  content: ''; /* Добавляем пустой контент */
+  position: absolute; /* Абсолютное позиционирование */
+  border-bottom: 3px solid #aa43c8; /* Толщина и цвет линии */
+  width: 150px; /* Ширина линии */
+  bottom: -10px; /* Отступ от нижней части текста */
+  left: 0; /* Выравниваем по левому краю */
+}
+.jury-country {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 30px;
 }
 
 .text-container {
-
+  max-width: 800px;
 }
-
 
 
 .text-container {
@@ -443,16 +484,15 @@ a:focus {
   text-align: left;
 }
 
-.jury-card img {
-  max-width: 100%;
+.jury-img  {
+  width: 400px;
   height: auto;
-  border-radius: 10px; /* Применяем скругленные углы */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень */
-  transition: transform 0.3s ease; /* Добавляем плавный переход */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .jury-card img:hover {
-  transform: scale(1.05); /* Увеличиваем размер при наведении */
+  transform: scale(1.05);
 }
 
 
