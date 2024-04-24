@@ -3,8 +3,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+small, strike, strong, sub, sup, tt, var, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -18,6 +17,10 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+}
+
+b {
+  color: #3e3b3f;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -185,6 +188,12 @@ a:focus {
   margin: 0 auto;
 }
 
+.ratings-wrapper {
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .main-section {
   display: flex;
   justify-content: center;
@@ -194,6 +203,17 @@ a:focus {
   text-align: center;
   box-sizing: border-box;
 }
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
 .main-content {
   position: relative;
   background-image: url('./img/bg-1.jpg');
@@ -212,6 +232,19 @@ a:focus {
   z-index: 2;
   text-align: center;
   color: white;
+}
+
+.ratings-content {
+  position: relative;
+  background-image: url('./img/bg-3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  padding: 200px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .main-title {
@@ -260,6 +293,14 @@ a:focus {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.text-start {
+  text-align: start;
 }
 
 .goals-section {
@@ -364,10 +405,38 @@ a:focus {
 .styled-list {
   list-style: none;
   padding: 0;
-  text-align: center;
 }
 
 .styled-list li {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+  color: #3e3b3f;
+  line-height: 1.3;
+}
+
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.big-number {
+  font-size: 74px;
+  font-weight: bold;
+  background: linear-gradient(to right, #a46497, #2ea2cc);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.jury-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.jury-list li {
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 600;
@@ -377,12 +446,12 @@ a:focus {
   align-items: center;
 }
 
-.big-number {
+.jury-number {
   font-size: 74px;
   font-weight: bold;
-  background: linear-gradient(to right, #a46497, #2ea2cc); /* Градиентный цвет фона */
-  -webkit-background-clip: text; /* Применяем градиент к тексту */
-  color: transparent; /* Делаем текст прозрачным */
+  background: linear-gradient(to right, #a46497, #2ea2cc);
+  -webkit-background-clip: text;
+  color: transparent;
   padding: 10px 15px;
   border-radius: 50%;
   margin-right: 15px;
@@ -457,16 +526,17 @@ a:focus {
 .jury-title {
   font-weight: 200;
   font-size: 36px;
-  position: relative; /* Позиционируем относительно */
+  text-transform: uppercase;
+  position: relative;
 }
 
 .jury-title::after {
-  content: ''; /* Добавляем пустой контент */
-  position: absolute; /* Абсолютное позиционирование */
-  border-bottom: 3px solid #aa43c8; /* Толщина и цвет линии */
-  width: 150px; /* Ширина линии */
-  bottom: -10px; /* Отступ от нижней части текста */
-  left: 0; /* Выравниваем по левому краю */
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid #aa43c8;
+  width: 150px;
+  bottom: -10px;
+  left: 0;
 }
 .jury-country {
   font-size: 24px;

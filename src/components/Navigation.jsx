@@ -9,7 +9,7 @@ const Navigation = () => {
       </div>
       <div className="nav-links">
         <Link to="/" className="link">Главная</Link>
-        <Link to="/ratings" className="link">Оценки</Link>
+        <Link to="/ratings" className="link">Критерии оценки</Link>
         <Link to="/jury" className="link">Жури</Link>
         <Link to="/winners" className="link">Победители</Link>
         <Link to="/photos" className="link">Фото</Link>
