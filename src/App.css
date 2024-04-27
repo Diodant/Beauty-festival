@@ -122,8 +122,9 @@ a:focus {
   align-items: center;
   padding: 30px 20px;
   font-family: "Roboto", sans-serif;
-  position: relative;
   background-color: white;
+  height: 90px;
+  position: relative; /* Добавляем относительное позиционирование */
 }
 
 .navbar::after {
@@ -137,8 +138,32 @@ a:focus {
 }
 
 .logo {
-  height: 60px;
-  transition: transform 0.3s ease;
+  position: absolute;
+
+  padding: 30px 0px;
+  left: 4%;
+  top: 0;
+}
+
+@media screen and (max-width: 1550px) {
+  .logo {
+    position: relative;
+    padding: 30px 20px;
+    left: 0;
+  }
+}
+
+.logo img{
+
+  width: 200px;
+  height: auto;
+}
+
+@media screen and (max-width: 1550px) {
+  .logo img{
+    max-width: 170px;
+    height: auto;
+  }
 }
 
 .logo:hover {
@@ -298,6 +323,8 @@ a:focus {
 .mb-50 {
   margin-bottom: 50px;
 }
+
+
 
 .text-start {
   text-align: start;
@@ -565,6 +592,97 @@ a:focus {
   transform: scale(1.05);
 }
 
+.position-image {
+  width: 250px;
+  height: 250px;
+  background-image: url('./img/nomination-icon.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Contacts */
+
+.contacts-section {
+  background-color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.contacts-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contacts-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #3e3b3f;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info span{
+    color: #3e3b3f;
+    font-weight: 700;
+}
+
+.contact-info a{
+  color: #3e3b3f;
+  font-weight: 700;
+}
+
+.text-start {
+  text-align: start;
+}
+
+.contact-info p {
+  color: #3e3b3f;
+  margin-bottom: 20px;
+}
+
+.contact-info p:last-child {
+  margin-bottom: 0;
+}
+
+.partner-images {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.partner-card {
+  width: 260px;
+  height: 160px;
+  background-color: #aa43c8;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+
+}
+
+.partner-image {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+}
 
 /* Footer */
 

@@ -6,6 +6,7 @@ import AboutAward from './components/AboutAward';
 import CriteriaRating from './components/CriteriaRating';
 import Jur from './components/Jur';
 import Winners from './components/Winners';
+import Position from './components/Position';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import './fonts/fonts.css';
@@ -23,6 +24,7 @@ function App() {
           <Route path="/ratings" element={<CriteriaRating />} />
           <Route path="/jury" element={<Jur />} />
           <Route path="/winners" element={<Winners />} />
+          <Route path="/position" element={<Position />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Footer />
