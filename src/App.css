@@ -429,6 +429,24 @@ a:focus {
   background-repeat: no-repeat;
 }
 
+.logo-image {
+  width: 100%;
+  height: 150px;
+  background-image: url('./img/olimp_3-03.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.logo-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
 .styled-list {
   list-style: none;
   padding: 0;
@@ -599,6 +617,57 @@ a:focus {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Photos */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-gap: 40px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.custom-button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #a46497, #2ea2cc);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:last-child {
+  margin-right: 0;
+}
+
+.custom-button:hover {
+  background-image: linear-gradient(to right, #2ea2cc, #a46497);
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.custom-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 /* Contacts */

@@ -23,6 +23,9 @@ function Jur() {
     <div>
       <div className="jury-content">
         <div className="content-overlay">
+          <div className='logo-cont'>
+        <div className="logo-image"></div>
+        </div>
           <h1 className="main-title">Критерии отбора членов жюри для престижной</h1>
           <h1 className="main-title">Международной Премии "Олимп красоты" по номинациям</h1>
         </div>
