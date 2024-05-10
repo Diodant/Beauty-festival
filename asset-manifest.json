@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Beauty-festival/static/css/main.3110e038.css",
-    "main.js": "/Beauty-festival/static/js/main.1a14dcbb.js",
+    "main.css": "/Beauty-festival/static/css/main.9031fcc0.css",
+    "main.js": "/Beauty-festival/static/js/main.d407031c.js",
     "static/js/453.b02c78cd.chunk.js": "/Beauty-festival/static/js/453.b02c78cd.chunk.js",
     "static/media/partner7.png": "/Beauty-festival/static/media/partner7.bcb549942afbf3cbdf7a.png",
     "static/media/partner6.png": "/Beauty-festival/static/media/partner6.017997ca68ad573a8852.png",
@@ -153,16 +153,16 @@
     "static/media/data4 2023_2.jpg": "/Beauty-festival/static/media/data4 2023_2.c7a5358d53f2c9ceab80.jpg",
     "static/media/partner5.png": "/Beauty-festival/static/media/partner5.2f073e4f1f445f9d341c.png",
     "static/media/photo45.jpg": "/Beauty-festival/static/media/photo45.2d421baa5688c4398426.jpg",
-    "static/media/prem.svg": "/Beauty-festival/static/media/prem.466819730e6fcd1376c8.svg",
+    "static/media/prem.svg": "/Beauty-festival/static/media/prem.466819730e6fcd1376c85ac0ab998199.svg",
     "static/media/nomination-icon.svg": "/Beauty-festival/static/media/nomination-icon.c1689e395f7409b74013.svg",
     "index.html": "/Beauty-festival/index.html",
     "static/media/arrow.svg": "/Beauty-festival/static/media/arrow.9ff625b0b551d5f152cfd6d8fd9ccded.svg",
-    "main.3110e038.css.map": "/Beauty-festival/static/css/main.3110e038.css.map",
-    "main.1a14dcbb.js.map": "/Beauty-festival/static/js/main.1a14dcbb.js.map",
+    "main.9031fcc0.css.map": "/Beauty-festival/static/css/main.9031fcc0.css.map",
+    "main.d407031c.js.map": "/Beauty-festival/static/js/main.d407031c.js.map",
     "453.b02c78cd.chunk.js.map": "/Beauty-festival/static/js/453.b02c78cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3110e038.css",
-    "static/js/main.1a14dcbb.js"
+    "static/css/main.9031fcc0.css",
+    "static/js/main.d407031c.js"
   ]
 }
