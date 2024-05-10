@@ -1,5 +1,6 @@
 import React from 'react';
 import ArrowImg from '../img/arrow.svg'
+import BubbleImg from '../img/prem.svg'
 
 function Position() {
   return (
@@ -13,7 +14,7 @@ function Position() {
     <section className='main-section'>
           <div className='wrapper'>
     <div className='title'>О положении</div>
-    <div className='text'>Положение Международной Премии "Олимп красоты" представляет собой документ, описывающий основные принципы, критерии и процедуры проведения награждения, которое призвано отметить выдающиеся достижения в сфере красоты и эстетической медицины. Вот примерное оформление такого положения:</div>
+    <div className='text'>Положение Международной Премии "Олимп красоты" представляет собой документ, описывающий основные принципы, критерии и процедуры проведения награждения, которое призвано отметить выдающиеся достижения в сфере красоты и эстетической медицины.</div>
     </div>
     <section className='about-section'>
         <div className='wrapper'>
@@ -48,8 +49,11 @@ function Position() {
       </section>
       <div className='wrapper'>
     <div className='title'>Организаторы премии</div>
-    <div className='text'>Организацию премии осуществляет комитет  Международной Ассоциацией Красоты и Ухода (International Association of Beauty and Care), состоящий из представителей ведущих учебных заведений, клиник и салонов красоты, а также независимых экспертов в области эстетической медицины.</div>
+    <div className='text'>Организацию премии осуществляет комитет Международной Ассоциации Красоты и Ухода (International Association of Beauty and Care), состоящий из представителей ведущих учебных заведений, клиник и салонов красоты, а также независимых экспертов в области эстетической медицины.</div>
     </div>
+
+
+
     <section className='about-section'>
         <div className='wrapper'>
           <div className='title'>Участники</div>
@@ -70,28 +74,13 @@ function Position() {
         </div>
       </section>
 
-        <div className='wrapper mb-50'>
-          <div className='title'>Категории наград</div>
-
+      <div className='wrapper mb-50'>
+          <div className='title'>НОМИНАЦИИ</div>
           <div className='awards-cont'>
-    <ul className="content-details-list">
-          <li>  <span class="arrow-icon-wrapper">
-          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Инновации в процедурах</li>
-            <li>  <span class="arrow-icon-wrapper">
-          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Выдающийся клиентский сервис</li>
-            <li>  <span class="arrow-icon-wrapper">
-          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Лучшая образовательная программа</li>
-            <li>  <span class="arrow-icon-wrapper">
-          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Прорыв года</li>
-            <li>  <span class="arrow-icon-wrapper">
-          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Лучший молодой специалист</li>
+        <ul className="jury-list">
+          <li><img src={BubbleImg} alt="Bubble" /> Инновации в процедурах</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Выдающийся клиентский сервис</li>
         </ul>
-        <div className="awards-image"></div>
         </div>
         </div>
 
@@ -113,7 +102,7 @@ function Position() {
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
             </span>Профессиональное развитие и вклад в отрасль</li>
         </ul>
-        <div className="position-image"></div>
+        <div className="awards-image-01"></div>
         </div>
         </div>
 
@@ -164,12 +153,18 @@ function Position() {
           <li>
             <div className="list-item-container">
               <span className="big-number">1</span>
-              <span>Детальное описание процесса регистрации, сроков подачи заявок и требований к документации.</span>
+              <span>Премия проводится ежегодно. Прием заявок с 1 октября по 1 декабря. Подведение итогов премии 10 декабря.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">2</span>
+              <span>Детальное описание процесса регистрации, сроков подачи заявок и требований к документации.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">3</span>
               <span>Условия конфиденциальности и права на интеллектуальную собственность.</span>
             </div>
           </li>
