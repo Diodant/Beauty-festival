@@ -32,7 +32,7 @@ function Jur() {
       </div>
       <section className='main-section'>
         <div className='wrapper'>
-          <div className='title'>Парикмахеры, стилисты, мейк-ап артисты</div>
+        <div className='title mb-50'>Парикмахеры, стилисты, мейк-ап артисты</div>
           <div className='text'>Премия "Олимп красоты" является значимым событием в мире красоты и эстетической медицины, представляя собой первую независимую Международную награду, призванную отметить выдающиеся достижения и инновации в этой области. Премия была создана для того, чтобы выявлять, поощрять и публично признавать профессионалов, которые вносят значительный вклад в развитие индустрии, улучшая качество жизни и внешний вид своих клиентов.</div>
         </div>
         <div className="jury-image"></div>
@@ -112,10 +112,10 @@ function Jur() {
           <div className='title'>Мастера маникюра и педикюра</div>
         </div>
         <div className="jury-image"></div>
-        <ul className="styled-list">
-          <li><span className="big-number">1</span>Инновации в техниках ногтевого дизайна и ухода за ногтями;</li>
-          <li><span className="big-number">2</span>Участие и победы в профессиональных конкурсах маникюра и педикюра;</li>
-          <li><span className="big-number">3</span>Разработка новых продуктов или техник в ногтевой индустрии.</li>
+        <ul className="jury-list">
+          <li><span className="jury-number">1</span>Инновации в техниках ногтевого дизайна и ухода за ногтями;</li>
+          <li><span className="jury-number">2</span>Участие и победы в профессиональных конкурсах маникюра и педикюра;</li>
+          <li><span className="jury-number">3</span>Разработка новых продуктов или техник в ногтевой индустрии.</li>
         </ul>
       </section>
       <div>
@@ -188,10 +188,10 @@ function Jur() {
           <div className='title'>Косметологи и эстетисты</div>
         </div>
         <div className="jury-image"></div>
-        <ul className="styled-list">
-          <li><span className="big-number">1</span>Разработка новаторских методик и процедур в области ухода за кожей;</li>
-          <li><span className="big-number">2</span>Наличие научных публикаций или проведение исследований в области косметологии;</li>
-          <li><span className="big-number">3</span>Проведение образовательных курсов и мастер-классов для профессионалов.</li>
+        <ul className="jury-list">
+          <li><span className="jury-number">1</span>Разработка новаторских методик и процедур в области ухода за кожей;</li>
+          <li><span className="jury-number">2</span>Наличие научных публикаций или проведение исследований в области косметологии;</li>
+          <li><span className="jury-number">3</span>Проведение образовательных курсов и мастер-классов для профессионалов.</li>
         </ul>
       </section>
       <div>
@@ -209,7 +209,7 @@ function Jur() {
               {selectedYearData3.items.map((item, index) => (
                 <div key={index} className="jury-item">
                   <div className="image-container">
-                    <img className='jury-img' src={item.image} alt={`${year}_${index + 1}`} />
+                    <img className='jury-img-2' src={item.image} alt={`${year}_${index + 1}`} />
                   </div>
                   <div className="text-container">
                     <div className='jury-title'>{item.name}</div>
@@ -258,10 +258,10 @@ function Jur() {
           <div className='title'>Мастера перманентного макияж</div>
         </div>
         <div className="jury-image"></div>
-        <ul className="styled-list">
-          <li><span className="big-number">1</span>Опыт обучения и сертификации в данной области;</li>
-          <li><span className="big-number">2</span>Разработка собственных методик и стилей перманентного макияжа;</li>
-          <li><span className="big-number">3</span>Участие в международных конференциях и семинарах по перманентному макияжу.</li>
+        <ul className="jury-list">
+          <li><span className="jury-number">1</span>Опыт обучения и сертификации в данной области;</li>
+          <li><span className="jury-number">2</span>Разработка собственных методик и стилей перманентного макияжа;</li>
+          <li><span className="jury-number">3</span>Участие в международных конференциях и семинарах по перманентному макияжу.</li>
         </ul>
       </section>
       <div>
@@ -328,10 +328,10 @@ function Jur() {
           <div className='title'>Тату мастер</div>
         </div>
         <div className="jury-image"></div>
-        <ul className="styled-list">
-          <li><span className="big-number">1</span>Международное признание и публикации работ в известных медиа;</li>
-          <li><span className="big-number">2</span>Участие и награды на престижных тату-конвенциях и конкурсах;</li>
-          <li><span className="big-number">3</span>Вклад в развитие тату-индустрии через обучение, инновационные техники и технологии.</li>
+        <ul className="jury-list">
+          <li><span className="jury-number">1</span>Международное признание и публикации работ в известных медиа;</li>
+          <li><span className="jury-number">2</span>Участие и награды на престижных тату-конвенциях и конкурсах;</li>
+          <li><span className="jury-number">3</span>Вклад в развитие тату-индустрии через обучение, инновационные техники и технологии.</li>
         </ul>
       </section>
       <div>
@@ -349,7 +349,7 @@ function Jur() {
               {selectedYearData5.items.map((item, index) => (
                 <div key={index} className="jury-item">
                   <div className="image-container">
-                    <img className='jury-img' src={item.image} alt={`${year}_${index + 1}`} />
+                    <img className='jury-img-2' src={item.image} alt={`${year}_${index + 1}`} />
                   </div>
                   <div className="text-container">
                     <div className='jury-title'>{item.name}</div>

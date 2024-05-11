@@ -9,6 +9,9 @@ const MainContent = () => {
       <div className="main-content">
 
         <div className="content-overlay">
+        <div className='logo-cont'>
+        <div className="logo-image"></div>
+        </div>
           <h1 className="main-title">Международная Премия</h1>
           <h1 className="main-title">“Олимп Красоты”</h1>
           <Link to={{

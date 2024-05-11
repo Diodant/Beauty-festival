@@ -6,6 +6,9 @@ function CriteriaRating() {
     <div>
             <div className="ratings-content">
     <div className="content-overlay">
+    <div className='logo-cont'>
+        <div className="logo-image"></div>
+        </div>
       <h1 className="main-title">Критерии оценки для получения</h1>
       <h1 className="main-title">Международной Премии "Олимп красоты"</h1>
     </div>
