@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Beauty-festival/static/css/main.9031fcc0.css",
-    "main.js": "/Beauty-festival/static/js/main.d407031c.js",
+    "main.css": "/Beauty-festival/static/css/main.2a30efec.css",
+    "main.js": "/Beauty-festival/static/js/main.940ed47a.js",
     "static/js/453.b02c78cd.chunk.js": "/Beauty-festival/static/js/453.b02c78cd.chunk.js",
+    "static/media/IMG_0716.jpg": "/Beauty-festival/static/media/IMG_0716.165489fe341e468d736a.jpg",
+    "static/media/photo_2024-05-09 22.53.48.jpeg": "/Beauty-festival/static/media/photo_2024-05-09 22.53.48.b4ab2376825ed1e56873.jpeg",
     "static/media/partner7.png": "/Beauty-festival/static/media/partner7.bcb549942afbf3cbdf7a.png",
     "static/media/partner6.png": "/Beauty-festival/static/media/partner6.017997ca68ad573a8852.png",
     "static/media/data5 2021_3.png": "/Beauty-festival/static/media/data5 2021_3.2042e9cd6e3c07f8d9ea.png",
@@ -82,7 +84,6 @@
     "static/media/photo23.jpg": "/Beauty-festival/static/media/photo23.94e8b48eebfe438f1e45.jpg",
     "static/media/data3 2020_3.jpg": "/Beauty-festival/static/media/data3 2020_3.7f70797b086f9d37e3ef.jpg",
     "static/media/photo44.jpg": "/Beauty-festival/static/media/photo44.8e2645345e7ddbdc4dd9.jpg",
-    "static/media/data4 2021_2.jpg": "/Beauty-festival/static/media/data4 2021_2.61fbf5e590033522bec8.jpg",
     "static/media/photo77.jpg": "/Beauty-festival/static/media/photo77.e39739eb70dcd4ff24be.jpg",
     "static/media/photo36.jpg": "/Beauty-festival/static/media/photo36.fe150dd7db76ae20621b.jpg",
     "static/media/photo35.jpg": "/Beauty-festival/static/media/photo35.ff99ecd2b1681752c133.jpg",
@@ -115,7 +116,6 @@
     "static/media/data5 2023_3.jpg": "/Beauty-festival/static/media/data5 2023_3.4b27e053582609516d9b.jpg",
     "static/media/photo57.jpg": "/Beauty-festival/static/media/photo57.ae58bc19ddd52cda2968.jpg",
     "static/media/photo28.jpg": "/Beauty-festival/static/media/photo28.f6bbb1aa0aaebaf42134.jpg",
-    "static/media/data2 2021_2.jpg": "/Beauty-festival/static/media/data2 2021_2.64b28025f4d6b38c853a.jpg",
     "static/media/photo55.jpg": "/Beauty-festival/static/media/photo55.24b62f5fb9b5ea699f34.jpg",
     "static/media/photo29.jpg": "/Beauty-festival/static/media/photo29.c442a7de82d47162c3b3.jpg",
     "static/media/photo37.jpg": "/Beauty-festival/static/media/photo37.f288318a8155c6e803e2.jpg",
@@ -154,15 +154,15 @@
     "static/media/partner5.png": "/Beauty-festival/static/media/partner5.2f073e4f1f445f9d341c.png",
     "static/media/photo45.jpg": "/Beauty-festival/static/media/photo45.2d421baa5688c4398426.jpg",
     "static/media/prem.svg": "/Beauty-festival/static/media/prem.466819730e6fcd1376c85ac0ab998199.svg",
-    "static/media/nomination-icon.svg": "/Beauty-festival/static/media/nomination-icon.c1689e395f7409b74013.svg",
     "index.html": "/Beauty-festival/index.html",
+    "static/media/nomination-icon.svg": "/Beauty-festival/static/media/nomination-icon.c1689e395f7409b74013.svg",
     "static/media/arrow.svg": "/Beauty-festival/static/media/arrow.9ff625b0b551d5f152cfd6d8fd9ccded.svg",
-    "main.9031fcc0.css.map": "/Beauty-festival/static/css/main.9031fcc0.css.map",
-    "main.d407031c.js.map": "/Beauty-festival/static/js/main.d407031c.js.map",
+    "main.2a30efec.css.map": "/Beauty-festival/static/css/main.2a30efec.css.map",
+    "main.940ed47a.js.map": "/Beauty-festival/static/js/main.940ed47a.js.map",
     "453.b02c78cd.chunk.js.map": "/Beauty-festival/static/js/453.b02c78cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9031fcc0.css",
-    "static/js/main.d407031c.js"
+    "static/css/main.2a30efec.css",
+    "static/js/main.940ed47a.js"
   ]
 }
