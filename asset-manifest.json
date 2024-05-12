@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Beauty-festival/static/css/main.2a30efec.css",
-    "main.js": "/Beauty-festival/static/js/main.940ed47a.js",
+    "main.css": "/Beauty-festival/static/css/main.24f9d4ae.css",
+    "main.js": "/Beauty-festival/static/js/main.0c506be5.js",
     "static/js/453.b02c78cd.chunk.js": "/Beauty-festival/static/js/453.b02c78cd.chunk.js",
     "static/media/IMG_0716.jpg": "/Beauty-festival/static/media/IMG_0716.165489fe341e468d736a.jpg",
     "static/media/photo_2024-05-09 22.53.48.jpeg": "/Beauty-festival/static/media/photo_2024-05-09 22.53.48.b4ab2376825ed1e56873.jpeg",
@@ -157,12 +157,12 @@
     "index.html": "/Beauty-festival/index.html",
     "static/media/nomination-icon.svg": "/Beauty-festival/static/media/nomination-icon.c1689e395f7409b74013.svg",
     "static/media/arrow.svg": "/Beauty-festival/static/media/arrow.9ff625b0b551d5f152cfd6d8fd9ccded.svg",
-    "main.2a30efec.css.map": "/Beauty-festival/static/css/main.2a30efec.css.map",
-    "main.940ed47a.js.map": "/Beauty-festival/static/js/main.940ed47a.js.map",
+    "main.24f9d4ae.css.map": "/Beauty-festival/static/css/main.24f9d4ae.css.map",
+    "main.0c506be5.js.map": "/Beauty-festival/static/js/main.0c506be5.js.map",
     "453.b02c78cd.chunk.js.map": "/Beauty-festival/static/js/453.b02c78cd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a30efec.css",
-    "static/js/main.940ed47a.js"
+    "static/css/main.24f9d4ae.css",
+    "static/js/main.0c506be5.js"
   ]
 }
