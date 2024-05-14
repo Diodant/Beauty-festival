@@ -13,22 +13,27 @@ function Contacts() {
   return (
     <div className="contacts-section">
       <div className="contacts-content">
-      <h1 className="contacts-title">Контакты</h1>
-        <div className="contact-container">
-        <div className="contact-info">
-          <p>Адрес:</p>
-          <span>Москва, Большая Якиманка, 32 м.Октябрьская</span>
-        </div>
-        <div className="contact-info">
-          <p>Телефон:</p>
-          <span>+7 977 495 5525</span>
-        </div>
-        <div className="contact-info">
-          <p>E-mail:</p>
-          <a href="iabc.association@gmail.com" class="contact-info">beautyolymp@gmail.com</a>
-        </div>
+      <div className="contact-page">
+      <div className="contact-header">
+        <h1>Международная премия «Олимп красоты» инициирована Международной Ассоциацией Красоты и Ухода IABC (International Association of Beauty and Care)</h1>
       </div>
-        <h1 className="contacts-title">Партнеры</h1>
+
+        <div className="contact-block">
+          <h2>Юридический адрес:</h2>
+          <p>Адрес: 117405, Россия, Москва, Варшавское шоссе, 21 км</p>
+          <p>Телефон: 8 (800) 550-48-76</p>
+          <p>Email: <a href="mailto:iabc.association@gmail.com">iabc.association@gmail.com</a></p>
+          <p>Сайт: <a href="https://iabc-association.com">iabc-association.com</a></p>
+        </div>
+        <div className="contact-block">
+          <h2>Международная премия «Олимп красоты»</h2>
+          <p>Сайт: <a href="https://beauty-olymp.com">beauty-olymp.com</a></p>
+          <p>Email: <a href="mailto:beautyolymp@gmail.com">beautyolymp@gmail.com</a></p>
+          <p>Телефон: +7 977 495 5525</p>
+          <p>По всем вопросам участия в Международной премии “Олимп красоты” звоните по тел: +7 977 495 5525</p>
+        </div>
+    </div>
+        <h1 className="title text-center">Партнеры</h1>
         <div className="partner-images">
           <div className="partner-card">
             <img src={Partner1} alt="Partner1" className="partner-image" />
