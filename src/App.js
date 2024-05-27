@@ -9,6 +9,8 @@ import Win from './components/Win';
 import Position from './components/Position';
 import Photos from './components/Photos';
 import Form from './components/Form';
+import ArticleList from './components/ArticleList';
+import ArticleDetail from './components/ArticleDetail';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
 import './fonts/fonts.css';
@@ -29,6 +31,8 @@ function App() {
           <Route path="/position" element={<Position />} />
           <Route path="/form" element={<Form />} />
           <Route path="/photos" element={<Photos />} />
+          <Route path="/articles" element={<ArticleList />} />
+          <Route path="/articles/:id" element={<ArticleDetail />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
         <Footer />

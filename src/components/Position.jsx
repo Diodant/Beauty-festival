@@ -82,7 +82,7 @@ function Position() {
           <div className='awards-cont'>
         <ul className="jury-list">
           <li><img src={BubbleImg} alt="Bubble" /> Инновации в процедурах</li>
-          <li><img src={BubbleImg} alt="Bubble" /> Выдающийся клиентский сервис</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Прорыв года</li>
         </ul>
         </div>
         </div>

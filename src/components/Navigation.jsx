@@ -14,6 +14,7 @@ const Navigation = () => {
         <Link to="/jury" className="link">Жюри</Link>
         <Link to="/winners" className="link">Победители</Link>
         <Link to="/position" className="link">Положение</Link>
+        <Link to="/articles" className="link">Статьи</Link>
         <Link to="/photos" className="link">Фото</Link>
         <Link to="/contacts" className="link">Контакты</Link>
       </div>
