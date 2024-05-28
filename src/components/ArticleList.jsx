@@ -24,7 +24,7 @@ const ArticleList = () => {
                 <Link to={`/articles/${article.id}`}>
                     <p className="date">{article.date}</p>
                     <h2>{article.title}</h2>
-                    <p>{truncateText(article.excerpt, 260)}</p>
+                    <p>{truncateText(article.excerpt, 290)}</p>
                     <p className="author">{article.author}</p>
                 </Link>
             </div>
@@ -43,7 +43,6 @@ const ArticleList = () => {
     </div>
     </div>
             <div ref={articleListRef} className="article-list">
-                {/* <h2 className="secondary-sub-title">Статьи</h2> */}
                 <div className="article-grid">
                     {renderArticles()}
                 </div>

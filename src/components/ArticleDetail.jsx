@@ -36,35 +36,50 @@ const ArticleDetail = () => {
           <>
             <p>{article.content}</p>
             <p>{article.content2}</p>
+            <p>{article.content3}</p>
+            <p>{article.content4}</p>
             <ul className='article-sub-list'>
               <li>{article.textli1}</li>
               <li>{article.textli2}</li>
-              <li>{article.textli3}</li>
-              <li>{article.textli4}</li>
-              <li>{article.textli5}</li>
-              <li>{article.textli6}</li>
-              <li>{article.textli7}</li>
             </ul>
-            <p>{article.content3}</p>
-            <p>{article.content4}</p>
             <p>{article.content5}</p>
             <p>{article.content6}</p>
             <p>{article.content7}</p>
             <p>{article.content8}</p>
-
-            <ul className='article-sub-list'>
             <p>{article.content9}</p>
-              <li>{article.textli8}</li>
-              <li>{article.textli9}</li>
-              <li>{article.textli10}</li>
-              <li>{article.textli11}</li>
-              <li>{article.textli12}</li>
-              <li>{article.textli13}</li>
-              <li>{article.textli14}</li>
-            </ul>
             <p>{article.content10}</p>
               <p>{article.content11}</p>
               <p>{article.content12}</p>
+              <p>{article.content13}</p>
+              <p>{article.content14}</p>
+              <p>{article.content15}</p>
+              <p>{article.content16}</p>
+              <p>{article.content17}</p>
+              <p>{article.content18}</p>
+              <p>{article.content19}</p>
+              <p>{article.content20}</p>
+              <p>{article.content21}</p>
+              <p>{article.content22}</p>
+              <p>{article.content23}</p>
+              <p>{article.content24}</p>
+              <p>{article.content25}</p>
+              <p>{article.content26}</p>
+              <p>{article.content27}</p>
+              <p>{article.content28}</p>
+              <p>{article.content29}</p>
+              <p>{article.content30}</p>
+              <p>{article.content31}</p>
+              <p>{article.content32}</p>
+              <ul className='article-sub-list'>
+              <li>{article.textli3}</li>
+              <li>{article.textli4}</li>
+              <li>{article.textli5}</li>
+              <li>{article.textli6}</li>
+            </ul>
+            <p>{article.content33}</p>
+            <p>{article.content34}</p>
+            <p>{article.content35}</p>
+            <p>{article.content36}</p>
           </>
         ) : (
           <>
@@ -79,6 +94,7 @@ const ArticleDetail = () => {
             <p>{article.content9}</p>
             <p>{article.content10}</p>
             <p>{article.content11}</p>
+            <p>{article.content12}</p>
           </>
         )}
         <div className="author">{article.author}</div>
