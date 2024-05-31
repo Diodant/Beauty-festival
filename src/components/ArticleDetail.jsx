@@ -81,6 +81,59 @@ const ArticleDetail = () => {
             <p>{article.content35}</p>
             <p>{article.content36}</p>
           </>
+            ) : article.id === 12 ? (
+              <>
+            <p>{article.content}</p>
+            <p>{article.content2}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli1}</li>
+              <li>{article.textli2}</li>
+              <li>{article.textli3}</li>
+              <li>{article.textli4}</li>
+              <li>{article.textli5}</li>
+            </ul>
+            <p>{article.content3}</p>
+            <p>{article.content4}</p>
+            <p>{article.content5}</p>
+            <p>{article.content6}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli6}</li>
+              <li>{article.textli7}</li>
+            </ul>
+            <p>{article.content7}</p>
+            <p>{article.content8}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli8}</li>
+              <li>{article.textli9}</li>
+            </ul>
+            <p>{article.content9}</p>
+            <p>{article.content10}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli10}</li>
+              <li>{article.textli11}</li>
+            </ul>
+            <p>{article.content11}</p>
+            <p>{article.content12}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli12}</li>
+              <li>{article.textli13}</li>
+            </ul>
+            <p>{article.content13}</p>
+            <p>{article.content14}</p>
+            <ul className='article-sub-list'>
+              <li>{article.textli14}</li>
+              <li>{article.textli15}</li>
+            </ul>
+            <p>{article.content15}</p>
+            <p>{article.content16}</p>
+            <p>{article.content17}</p>
+            <p>{article.content18}</p>
+            <p>{article.content19}</p>
+            <p>{article.content20}</p>
+            <p>{article.content21}</p>
+            <p>{article.content22}</p>
+            <p>{article.content23}</p>
+              </>
         ) : (
           <>
             <p>{article.content}</p>
