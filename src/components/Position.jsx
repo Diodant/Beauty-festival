@@ -15,36 +15,39 @@ function Position() {
     </div>
     </div>
     <section className='main-section'>
-          <div className='wrapper'>
-    <div className='title'>О положении</div>
-    <div className='text'>Положение Международной Премии "Олимп красоты" представляет собой документ, описывающий основные принципы, критерии и процедуры проведения награждения, которое призвано отметить выдающиеся достижения в сфере красоты и эстетической медицины.</div>
-    </div>
     <section className='about-section'>
         <div className='wrapper'>
           <div className='title'>Цели и задачи премии</div>
+          <div className='text'>Международная Премия "Олимп Красоты" ставит своей целью поощрение лучших мастеров индустрии красоты и эстетической медицины, а также стимулирование инновационного развития отрасли. Основные задачи премии:</div>
           <ul className="styled-list">
           <li>
             <div className="list-item-container">
               <span className="big-number">1</span>
-              <span>Поощрение и награждение мастеров и специалистов за выдающиеся достижения и инновации в индустрии красоты.</span>
+              <span>Отметить выдающиеся достижения специалистов в области красоты и ухода.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">2</span>
-              <span>Стимулирование развития и внедрения новых технологий и методик в сфере красоты и эстетической медицины.</span>
+              <span>Поддерживать внедрение новых технологий и методик, способствующих развитию сферы красоты и эстетической медицины.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">3</span>
-              <span>Поддержка и продвижение высоких стандартов обслуживания и клиентского сервиса.</span>
+              <span>Устанавливать высокие стандарты клиентского сервиса и профессионализма среди мастеров.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">4</span>
-              <span>Взаимодействие и сотрудничество профессионалов отрасли на международном уровне.</span>
+              <span>Содействовать международному сотрудничеству профессионалов и обмену опытом.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">5</span>
+              <span>Привлекать внимание к достижениям в эстетике и поддерживать дальнейшее развитие специалистов через международное признание.</span>
             </div>
           </li>
         </ul>
@@ -52,101 +55,144 @@ function Position() {
       </section>
       <div className='wrapper'>
     <div className='title'>Организаторы премии</div>
-    <div className='text'>Организацию премии осуществляет комитет Международной Ассоциации Красоты и Ухода (International Association of Beauty and Care), состоящий из представителей ведущих учебных заведений, клиник и салонов красоты, а также независимых экспертов в области эстетической медицины.</div>
-    </div>
-
-
-
-    <section className='about-section'>
-        <div className='wrapper'>
-          <div className='title'>Участники</div>
-          <ul className="styled-list">
+    <div className='text'>Организацией премии занимается комитет Международной Ассоциации Красоты и Ухода (International Association of Beauty and Care). В состав комитета входят:</div>
+    <ul className="styled-list">
           <li>
             <div className="list-item-container">
               <span className="big-number">1</span>
-              <span>Премия открыта для мастеров ногтевого сервиса, парикмахеров, косметологов, мастеров перманентного макияжа и тату мастеров</span>
+              <span>Представители ведущих учебных заведений, клиник и салонов красоты</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">2</span>
-              <span>Участники могут быть номинированы коллегами, профессиональными ассоциациями или самостоятельно подать заявку</span>
+              <span>Независимые эксперты с международным опытом в сфере эстетической медицины, косметологии и парикмахерского искусства.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">3</span>
+              <span>Партнеры и спонсоры, поддерживающие развитие индустрии красоты.</span>
             </div>
           </li>
         </ul>
+        <div className='text'>Организаторы премии обеспечивают прозрачность процесса отбора участников и справедливость оценок, а также соблюдение этических норм.</div>
+    </div>
+
+    <section className='about-section'>
+        <div className='wrapper'>
+          <div className='title'>Участники</div>
+          <div className='text'>Премия "Олимп Красоты" открыта для всех квалифицированных специалистов и мастеров, работающих в индустрии красоты:</div>
+          <div className='awards-cont mt-30'>
+    <ul className="content-details-list">
+          <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Мастера ногтевого сервиса.</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Парикмахеры и стилисты.</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Косметологи, дерматологи и эстетисты.</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Мастера перманентного макияжа.</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Тату-мастера, специалисты в области татуажа и художественной росписи.</li>
+        </ul>
+        </div>
+        <div className='text'>Участники могут быть номинированы как профессиональными ассоциациями и коллегами, так и подать заявку самостоятельно. Подача заявки требует предоставления портфолио, рекомендаций и описания профессиональных достижений.</div>
         </div>
       </section>
 
       <div className='wrapper mb-50'>
           <div className='title'>НОМИНАЦИИ</div>
-          <div className='awards-cont'>
-        <ul className="jury-list">
-          <li><img src={BubbleImg} alt="Bubble" /> Инновации в процедурах</li>
-          <li><img src={BubbleImg} alt="Bubble" /> Прорыв года</li>
+          <div className='text'>Номинации премии охватывают широкий спектр профессиональной деятельности в индустрии красоты. Основные номинации:</div>
+          <div className='bubble-cont'>
+        <ul className="jury-list mt-30">
+        <li><img src={BubbleImg} alt="Bubble" /> Парикмахеры и стилисты</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Make-up артисты</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Мастера маникюра и педикюра</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Косметологи и эстетисты</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Мастера перманентного макияжа</li>
+          <li><img src={BubbleImg} alt="Bubble" /> Тату мастера</li>
         </ul>
         </div>
+        <div className='text'>Каждый участник может быть номинирован в нескольких категориях при наличии соответствующих заслуг.</div>
         </div>
 
-        <div className='wrapper mb-50'>
+        <div className='wrapper cont-center mb-50'>
           <div className='title'>Критерии оценки</div>
-
+          <div className="awards-image-01"></div>
+          <div className='text'>Премия "Олимп Красоты" основывается на тщательной оценке кандидатов по следующим критериям:</div>
           <div className='awards-cont'>
     <ul className="content-details-list">
           <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Инновационный подход</li>
+            </span>Инновационный подход: Внедрение новых техник, продуктов или технологий в своей профессиональной практике.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Качество и результаты работы</li>
+            </span>Качество и результаты работы: Профессиональное исполнение, подтвержденные результаты и эстетическая ценность выполненных работ.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Клиентская удовлетворенность</li>
+            </span>Клиентская удовлетворенность: Уровень удовлетворенности клиентов, наличие положительных отзывов и рекомендаций.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Профессиональное развитие и вклад в отрасль</li>
+            </span>Профессиональное развитие и вклад в отрасль: Постоянное совершенствование навыков, участие в обучении коллег и влияние на развитие индустрии красоты.</li>
         </ul>
-        <div className="awards-image-01"></div>
+        
         </div>
         </div>
 
-        <div className='wrapper mb-50'>
+        <div className='wrapper cont-center'>
           <div className='title'>Процесс отбора</div>
+          <div className="position-image"></div>
+          <div className='text'>Отбор участников проводится в несколько этапов:</div>
 
           <div className='awards-cont'>
     <ul className="content-details-list">
           <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Подача заявок и документации</li>
+            </span>Подача заявок: Заявки принимаются с 1 октября по 1 декабря текущего года. Заявка должна содержать портфолио, рекомендации и подтверждения достижений.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Предварительный отбор кандидатов</li>
+            </span>Предварительный отбор: На основании предоставленных документов комитет отбирает финалистов, соответствующих критериям премии.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Оценка экспертной комиссией</li>
+            </span>Оценка экспертной комиссией: Финалисты оцениваются экспертной комиссией, состоящей из профессионалов отрасли, на основе портфолио и достижений.</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Голосование и определение победителей</li>
+            </span>Голосование и определение победителей: Окончательное решение принимается на основе коллективного голосования членов жюри.</li>
         </ul>
-        <div className="position-image"></div>
+        
         </div>
         </div>
         <section className='about-section'>
         <div className='wrapper'>
           <div className='title'>Награждение</div>
+          <div className='text'>Победители премии "Олимп Красоты" получают:</div>
           <ul className="styled-list">
           <li>
             <div className="list-item-container">
               <span className="big-number">1</span>
-              <span>Победители в каждой категории получают статуэтку "Олимп красоты", сертификаты и призы от спонсоров.</span>
+              <span>Статуэтку "Олимп Красоты" – символ международного признания их профессионализма.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">2</span>
-              <span>Торжественная церемония награждения проводится ежегодно в одном из международных культурных центров.</span>
+              <span>Сертификаты и ценные призы от спонсоров премии.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">3</span>
+              <span>Возможность публикации своих работ в международных изданиях.</span>
             </div>
           </li>
         </ul>
+        <div className='text'>Торжественная церемония награждения проходит ежегодно в одном из престижных международных культурных центров.</div>
         </div>
       </section>
       <section className='about-section'>
@@ -156,28 +202,62 @@ function Position() {
           <li>
             <div className="list-item-container">
               <span className="big-number">1</span>
-              <span>Премия проводится ежегодно. Прием заявок с 1 октября по 1 декабря. Подведение итогов премии 10 декабря.</span>
+              <span>Премия проводится ежегодно, заявки принимаются с 1 октября по 1 декабря. Итоги подводятся 10 декабря.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">2</span>
-              <span>Детальное описание процесса регистрации, сроков подачи заявок и требований к документации.</span>
+              <span>Участники должны предоставить документы, подтверждающие их квалификацию и достижения.</span>
             </div>
           </li>
           <li>
             <div className="list-item-container">
               <span className="big-number">3</span>
-              <span>Условия конфиденциальности и права на интеллектуальную собственность.</span>
+              <span>Участники соглашаются на использование своих материалов в публикациях, рекламных и образовательных целях.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">4</span>
+              <span>Все предоставленные данные участников защищены условиями конфиденциальности и не будут переданы третьим лицам без разрешения.</span>
             </div>
           </li>
         </ul>
         </div>
       </section>
+      <section className='about-section'>
+        <div className='wrapper'>
+          <div className='title'>Финансирование и спонсорство</div>
+          <div className='text'>Премия финансируется за счет вкладов спонсоров, партнеров и членских взносов. Спонсорами могут быть:</div>
+          <ul className="styled-list">
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">1</span>
+              <span>Косметические бренды и компании, производящие профессиональные средства для индустрии красоты.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">2</span>
+              <span>Учебные заведения, клиники и салоны, заинтересованные в развитии отрасли.</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">3</span>
+              <span>Международные партнеры, поддерживающие инновации в эстетике и косметологии.</span>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <section className='about-section'>
       <div className='wrapper'>
-    <div className='title'>Финансирование и спонсорство</div>
-    <div className='text'>Описание системы финансирования премии, включая вклад спонсоров и партнеров. Это положение служит основой для организации и проведения премии, обеспечивая прозрачность и справедливость на всех этапах оценки и награждения.</div>
-    </div>
+      <div className='title'>Заключение</div>
+      <div className='text'>Данное положение является основным документом, регулирующим организацию и проведение Международной Премии "Олимп Красоты". Оно обеспечивает прозрачность процедур, честность оценок и высокие стандарты на всех этапах проведения конкурса и награждения победителей.</div>
+      </div>
+         </section>
       </section>
     </div>
   );

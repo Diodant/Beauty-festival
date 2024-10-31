@@ -46,7 +46,10 @@ const MainContent = () => {
     <ul className="content-details-list">
           <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
-            </span>Парикмахеры, стилисты, мейк-ап артисты</li>
+            </span>Парикмахеры и стилисты</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Make-up артисты</li>
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
             </span>Мастера маникюра и педикюра</li>

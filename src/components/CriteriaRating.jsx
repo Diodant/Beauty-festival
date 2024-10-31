@@ -17,7 +17,7 @@ function CriteriaRating() {
           <div className='ratings-wrapper'>
     <section className='about-section'>
     <div className='ratings-wrapper'>
-          <div className='title'>Парикмахеры, стилисты, мейк-ап артисты</div>
+          <div className='title'>Парикмахеры и стилисты</div>
           <ul className="content-details-list">
           <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
@@ -34,6 +34,28 @@ function CriteriaRating() {
             <li>  <span class="arrow-icon-wrapper">
           <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
             </span>Объем и качество образовательного вклада в индустрию (мастер-классы, обучение).</li>
+        </ul>
+        </div>
+      </section>
+      <section className='about-section'>
+    <div className='ratings-wrapper'>
+          <div className='title'>Make-up артисты</div>
+          <ul className="content-details-list">
+          <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Оригинальность и креативность макияжа;</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Сложность и техничность выполнения;</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Знание и применение последних трендов в визажном искусстве;</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Качество и стойкость макияжа;</li>
+            <li>  <span class="arrow-icon-wrapper">
+          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+            </span>Образовательный вклад в индустрию (мастер-классы, обучение).</li>
         </ul>
         </div>
       </section>

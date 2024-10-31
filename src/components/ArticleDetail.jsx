@@ -85,6 +85,7 @@ const ArticleDetail = () => {
               <>
             <p>{article.content}</p>
             <p>{article.content2}</p>
+            <img src={article.imageUrl} alt={article.title} className="article-sub-image" />
             <ul className='article-sub-list'>
               <li>{article.textli1}</li>
               <li>{article.textli2}</li>
@@ -125,6 +126,7 @@ const ArticleDetail = () => {
               <li>{article.textli15}</li>
             </ul>
             <p>{article.content15}</p>
+            <img src={article.imageUrl2} alt={article.title} className="article-sub-image" />
             <p>{article.content16}</p>
             <p>{article.content17}</p>
             <p>{article.content18}</p>

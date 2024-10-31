@@ -19,7 +19,7 @@ function AboutAward() {
     </div>
     <section className='about-section'>
         <div className='wrapper'>
-          <div className='title'>Парикмахеры, стилисты, мейк-ап артисты</div>
+          <div className='title'>Парикмахеры и стилисты</div>
           <ul className="styled-list">
           <li>
             <div className="list-item-container">
@@ -31,6 +31,25 @@ function AboutAward() {
             <div className="list-item-container">
               <span className="big-number">2</span>
               <span>Умение работать с различными текстурами волос и создавать уникальные образы, подходящие для любого события и личности клиента.</span>
+            </div>
+          </li>
+        </ul>
+        </div>
+      </section>
+      <section className='about-section'>
+        <div className='wrapper'>
+          <div className='title'>Make-up артисты</div>
+          <ul className="styled-list">
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">1</span>
+              <span>Мастерство в создании инновационного и трендового макияжа, сочетающее техническую точность и креативный подход;</span>
+            </div>
+          </li>
+          <li>
+            <div className="list-item-container">
+              <span className="big-number">2</span>
+              <span>Умение работать с различными типами кожи и чертами лица, создавая уникальные образы, которые идеально подходят для любого события и подчеркивают индивидуальность клиента.</span>
             </div>
           </li>
         </ul>

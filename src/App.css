@@ -323,6 +323,10 @@ a:focus {
   margin-bottom: 50px;
 }
 
+.mt-30 {
+  margin-top: 30px;
+}
+
 
 
 .text-start {
@@ -361,7 +365,7 @@ a:focus {
   padding-top: 20px;
   list-style: none;
   font-size: 28px;
-  margin-right: 20px;
+  padding-left: 0;
 }
 
 .arrow-icon-wrapper {
@@ -383,15 +387,26 @@ a:focus {
 
 .content-details-list li {
   display: flex;
-  align-items: center;
+  align-items: center; 
   margin-bottom: 25px;
   line-height: 1.2;
+  text-align: left; 
+}
+
+.content-details-list li p {
+  margin: 0; 
 }
 
 .awards-cont {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.bubble-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .awards-image {
@@ -410,6 +425,13 @@ a:focus {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.cont-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* Jury */
@@ -619,7 +641,7 @@ a:focus {
 }
 
 .jury-img  {
-  width: 400px;
+  width: 350px;
   height: 515px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -644,6 +666,7 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
 /* Form */
 
@@ -993,7 +1016,9 @@ a:focus {
   font-family: 'Georgia', serif;
 }
 
-
+.article-sub-image {
+  padding: 20px 0px 40px 0px;
+}
 
 /* Contacts */
 .contact-page {

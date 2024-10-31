@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import data from './data';
 import data2 from './data2';
 import data3 from './data3';
 import data4 from './data4';
 import data5 from './data5';
+import data6 from './data6';
 import ArrowImg from '../img/arrow.svg';
 
 function Jur() {
@@ -18,6 +19,27 @@ function Jur() {
   const selectedYearData3 = data3.find((item) => item.year === year);
   const selectedYearData4 = data4.find((item) => item.year === year);
   const selectedYearData5 = data5.find((item) => item.year === year);
+  const selectedYearData6 = data6.find((item) => item.year === year);
+
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Leila Gajiyeva';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
 
   return (
     <div>
@@ -32,7 +54,7 @@ function Jur() {
       </div>
       <section className='main-section'>
         <div className='wrapper'>
-        <div className='title mb-50'>Парикмахеры, стилисты, мейк-ап артисты</div>
+        <div className='title mb-50'>Парикмахеры и стилисты</div>
           <div className='text'>Премия "Олимп красоты" является значимым событием в мире красоты и эстетической медицины, представляя собой первую независимую Международную награду, призванную отметить выдающиеся достижения и инновации в этой области. Премия была создана для того, чтобы выявлять, поощрять и публично признавать профессионалов, которые вносят значительный вклад в развитие индустрии, улучшая качество жизни и внешний вид своих клиентов.</div>
         </div>
         <div className="jury-image"></div>
@@ -99,6 +121,85 @@ function Jur() {
                         </span>
                         {item.text6}
                       </li>
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+      <section className='main-section'>
+        <div className='wrapper'>
+        <div className='title mb-50'>Make-up артисты</div>
+        </div>
+        <div className="jury-image"></div>
+        <ul className="jury-list">
+          <li><span className="jury-number">1</span> Опыт работы с международными косметическими брендами и ведущими визажистами;</li>
+          <li><span className="jury-number">2</span> Участие в крупных мероприятиях, создание макияжных трендов;</li>
+          <li><span className="jury-number">3</span> Преподавательский опыт и проведение мастер-классов для визажистов.</li>
+        </ul>
+      </section>
+      <div>
+        <div className="jury-buttons">
+          {data.map((item) => (
+            <button key={item.year} onClick={() => handleYearChange(item.year)}>
+              {item.year}
+            </button>
+          ))}
+        </div>
+        {selectedYearData6 && (
+          <div>
+            <h2 className='year-title'>Жюри: {year}</h2>
+            <div className="jury-card">
+              {selectedYearData6.items.map((item, index) => (
+                <div key={index} className="jury-item">
+                  <div className="image-container">
+                    <img className='jury-img' src={item.image} alt={`${year}_${index + 1}`} />
+                  </div>
+                  <div className="text-container">
+                  
+                  <div className='jury-title' data-translate-custom={item.name === "Лейла Гаджиева" ? "true" : "false"}>{item.name}</div>
+                    <div className='jury-country'>{item.country}</div>
+                    <ul className="jury-details-list">
+                      <li>
+                        <span className="arrow-icon-wrapper">
+                          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                        </span>
+                        {item.text1}
+                      </li>
+                      <li>
+                        <span className="arrow-icon-wrapper">
+                          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                        </span>
+                        {item.text2}
+                      </li>
+                      <li>
+                        <span className="arrow-icon-wrapper">
+                          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                        </span>
+                        {item.text3}
+                      </li>
+                      <li>
+                        <span className="arrow-icon-wrapper">
+                          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                        </span>
+                        {item.text4}
+                      </li>
+                      <li>
+                        <span className="arrow-icon-wrapper">
+                          <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                        </span>
+                        {item.text5}
+                      </li>
+                      {item.text6 && (
+                  <li>
+                    <span className="arrow-icon-wrapper">
+                      <img src={ArrowImg} className="my-icon-style" alt="ArrowImg" />
+                    </span>
+                    {item.text6}
+                  </li>
+                )}
                     </ul>
                   </div>
                 </div>
@@ -255,7 +356,7 @@ function Jur() {
       </div>
       <section className='main-section'>
         <div className='wrapper'>
-          <div className='title'>Мастера перманентного макияж</div>
+          <div className='title'>Мастера перманентного макияжа</div>
         </div>
         <div className="jury-image"></div>
         <ul className="jury-list">
