@@ -20,8 +20,8 @@ function Contacts() {
 
         <div className="contact-block">
           <h2>Юридический адрес:</h2>
-          <p>Адрес: 117405, Россия, Москва, Варшавское шоссе, 21 км</p>
-          <p>Телефон: 8 (800) 550-48-76</p>
+          <p>Адрес: Адрес: 121500, г. Москва, ул. Василия Ботылева, дом 6, офис 14</p>
+          <p>Телефон: 8 (800) 551-48-76</p>
           <p>Email: <a href="mailto:iabc.association@gmail.com">iabc.association@gmail.com</a></p>
           <p>Сайт: <a href="https://iabc-association.com">iabc-association.com</a></p>
         </div>

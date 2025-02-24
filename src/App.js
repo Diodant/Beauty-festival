@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navigation from './components/Navigation';
 import MainContent from './components/MainContent';
@@ -18,6 +18,29 @@ import './fonts/fonts.css';
 import './App.css';
 
 function App() {
+  // const [accessAllowed, setAccessAllowed] = useState(false); // Управление доступом
+
+  // useEffect(() => {
+  //   fetch('https://ipapi.co/json/')
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       if (data.country === 'US') {
+  //         setAccessAllowed(true); // Разрешить доступ только пользователям из США
+  //       } else {
+  //         window.location.href = 'https://example.com/access-denied'; // Перенаправление
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       console.error('Error fetching location:', error);
+  //       window.location.href = 'https://example.com/access-denied'; // Перенаправление в случае ошибки
+  //     });
+  // }, []);
+
+  // if (!accessAllowed) {
+  //   // Пока идет проверка или пользователь не из США, ничего не отображаем
+  //   return null;
+  // }
+
   return (
     <Router>
       <div >

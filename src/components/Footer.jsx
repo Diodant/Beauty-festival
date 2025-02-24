@@ -6,7 +6,7 @@ function Footer() {
               <div className="footer-container">
         <div className="address">
           <strong>Адрес:</strong>
-          <p>Москва, Большая Якиманка, 32 м.Октябрьская</p>
+          <p>121500, г. Москва, ул. Василия Ботылева, дом 6, офис 14</p>
         </div>
         <div className="phone">
           <strong>Телефон:</strong>
